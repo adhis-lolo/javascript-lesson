@@ -57,7 +57,10 @@ var password=1234
 var newFirstname= prompt(`enter firstname:`)
 var newSecondname= prompt(`enter secondname:`)
 var newpassword=prompt(`enter password:`)
-
+var item=prompt('item:' )
+var checkitem= Number(item)
+if (item == checkitem) {alert(`${item}this is a number`)}
+    else alert( `${item}this is not a number`)
 if(newFirstname==firstname)alert(`firstname:correct`)
 if (newSecondname==secondname)alert(`secondname :correct`)
 if (password ==newpassword)alert(`password:correct`)
