@@ -86,3 +86,38 @@ if (operator==='+')
     alert(num1+num2)
 if (operand1==NaN) console.log(`invalid`)
 if (operand2==NaN) console.log(`invalid`)
+var browser=prompt('Enter a browser:')
+
+
+switch(browser){
+    case 'Edge':
+  alert('You have got the Edge')
+        break;
+    case 'Chrome'&& 'Firefox'&&'safari'&&'opera':
+    alert('okay we support these browsers too')
+        break;
+     default:
+           alert('We hope that this page looks ok')}
+
+var a=+prompt('a?:');
+
+
+switch(a){
+case 0:
+ alert(0);
+    break;
+case 1:
+ alert(1);
+        break;
+case 2:
+
+case 3:
+    alert('2,3')}
+
+code using while
+    var password=prompt('Enter pasword:')
+
+while(password!=='qacy')
+  password=prompt('Name incorrect enter correct password:')
+
+alert('valid')
